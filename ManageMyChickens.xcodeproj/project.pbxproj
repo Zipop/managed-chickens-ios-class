@@ -21,6 +21,7 @@
 		52B9B50A18906542007FB22D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B9B4EC18906542007FB22D /* UIKit.framework */; };
 		52B9B51218906542007FB22D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52B9B51018906542007FB22D /* InfoPlist.strings */; };
 		52B9B51418906542007FB22D /* ManageMyChickensTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B9B51318906542007FB22D /* ManageMyChickensTests.m */; };
+		52B9B51F18906575007FB22D /* Chicken.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B9B51E18906575007FB22D /* Chicken.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		52B9B50F18906542007FB22D /* ManageMyChickensTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManageMyChickensTests-Info.plist"; sourceTree = "<group>"; };
 		52B9B51118906542007FB22D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52B9B51318906542007FB22D /* ManageMyChickensTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManageMyChickensTests.m; sourceTree = "<group>"; };
+		52B9B51D18906575007FB22D /* Chicken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chicken.h; sourceTree = "<group>"; };
+		52B9B51E18906575007FB22D /* Chicken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chicken.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		52B9B4EE18906542007FB22D /* ManageMyChickens */ = {
 			isa = PBXGroup;
 			children = (
+				52B9B51D18906575007FB22D /* Chicken.h */,
+				52B9B51E18906575007FB22D /* Chicken.m */,
 				52B9B4F718906542007FB22D /* TGAppDelegate.h */,
 				52B9B4F818906542007FB22D /* TGAppDelegate.m */,
 				52B9B4FA18906542007FB22D /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B9B4FF18906542007FB22D /* TGViewController.m in Sources */,
+				52B9B51F18906575007FB22D /* Chicken.m in Sources */,
 				52B9B4F518906542007FB22D /* main.m in Sources */,
 				52B9B4F918906542007FB22D /* TGAppDelegate.m in Sources */,
 			);

@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface TGViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *chickenNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *chickenWeightLabel;
+@property (weak, nonatomic) IBOutlet UILabel *chickenCookTimeLabel;
 
 @end

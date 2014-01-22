@@ -1,0 +1,2 @@
+managed-chickens-ios-class
+==========================

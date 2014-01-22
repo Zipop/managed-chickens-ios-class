@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52B9B4E918906542007FB22D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B9B4E818906542007FB22D /* Foundation.framework */; };
+		52B9B4EB18906542007FB22D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B9B4EA18906542007FB22D /* CoreGraphics.framework */; };
+		52B9B4ED18906542007FB22D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B9B4EC18906542007FB22D /* UIKit.framework */; };
+		52B9B4F318906542007FB22D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52B9B4F118906542007FB22D /* InfoPlist.strings */; };
+		52B9B4F518906542007FB22D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B9B4F418906542007FB22D /* main.m */; };
+		52B9B4F918906542007FB22D /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B9B4F818906542007FB22D /* TGAppDelegate.m */; };
+		52B9B4FC18906542007FB22D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B9B4FA18906542007FB22D /* Main.storyboard */; };
+		52B9B4FF18906542007FB22D /* TGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B9B4FE18906542007FB22D /* TGViewController.m */; };
+		52B9B50118906542007FB22D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B9B50018906542007FB22D /* Images.xcassets */; };
+		52B9B50818906542007FB22D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B9B50718906542007FB22D /* XCTest.framework */; };
+		52B9B50918906542007FB22D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B9B4E818906542007FB22D /* Foundation.framework */; };
+		52B9B50A18906542007FB22D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B9B4EC18906542007FB22D /* UIKit.framework */; };
+		52B9B51218906542007FB22D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52B9B51018906542007FB22D /* InfoPlist.strings */; };
+		52B9B51418906542007FB22D /* ManageMyChickensTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B9B51318906542007FB22D /* ManageMyChickensTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52B9B50B18906542007FB22D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52B9B4DD18906542007FB22D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B9B4E418906542007FB22D;
+			remoteInfo = ManageMyChickens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52B9B4E518906542007FB22D /* ManageMyChickens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManageMyChickens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B9B4E818906542007FB22D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52B9B4EA18906542007FB22D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52B9B4EC18906542007FB22D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52B9B4F018906542007FB22D /* ManageMyChickens-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManageMyChickens-Info.plist"; sourceTree = "<group>"; };
+		52B9B4F218906542007FB22D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52B9B4F418906542007FB22D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52B9B4F618906542007FB22D /* ManageMyChickens-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ManageMyChickens-Prefix.pch"; sourceTree = "<group>"; };
+		52B9B4F718906542007FB22D /* TGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGAppDelegate.h; sourceTree = "<group>"; };
+		52B9B4F818906542007FB22D /* TGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
+		52B9B4FB18906542007FB22D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52B9B4FD18906542007FB22D /* TGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGViewController.h; sourceTree = "<group>"; };
+		52B9B4FE18906542007FB22D /* TGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGViewController.m; sourceTree = "<group>"; };
+		52B9B50018906542007FB22D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52B9B50618906542007FB22D /* ManageMyChickensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManageMyChickensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B9B50718906542007FB22D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		52B9B50F18906542007FB22D /* ManageMyChickensTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManageMyChickensTests-Info.plist"; sourceTree = "<group>"; };
+		52B9B51118906542007FB22D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52B9B51318906542007FB22D /* ManageMyChickensTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManageMyChickensTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52B9B4E218906542007FB22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B9B4EB18906542007FB22D /* CoreGraphics.framework in Frameworks */,
+				52B9B4ED18906542007FB22D /* UIKit.framework in Frameworks */,
+				52B9B4E918906542007FB22D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B9B50318906542007FB22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B9B50818906542007FB22D /* XCTest.framework in Frameworks */,
+				52B9B50A18906542007FB22D /* UIKit.framework in Frameworks */,
+				52B9B50918906542007FB22D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52B9B4DC18906542007FB22D = {
+			isa = PBXGroup;
+			children = (
+				52B9B4EE18906542007FB22D /* ManageMyChickens */,
+				52B9B50D18906542007FB22D /* ManageMyChickensTests */,
+				52B9B4E718906542007FB22D /* Frameworks */,
+				52B9B4E618906542007FB22D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52B9B4E618906542007FB22D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52B9B4E518906542007FB22D /* ManageMyChickens.app */,
+				52B9B50618906542007FB22D /* ManageMyChickensTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52B9B4E718906542007FB22D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52B9B4E818906542007FB22D /* Foundation.framework */,
+				52B9B4EA18906542007FB22D /* CoreGraphics.framework */,
+				52B9B4EC18906542007FB22D /* UIKit.framework */,
+				52B9B50718906542007FB22D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52B9B4EE18906542007FB22D /* ManageMyChickens */ = {
+			isa = PBXGroup;
+			children = (
+				52B9B4F718906542007FB22D /* TGAppDelegate.h */,
+				52B9B4F818906542007FB22D /* TGAppDelegate.m */,
+				52B9B4FA18906542007FB22D /* Main.storyboard */,
+				52B9B4FD18906542007FB22D /* TGViewController.h */,
+				52B9B4FE18906542007FB22D /* TGViewController.m */,
+				52B9B50018906542007FB22D /* Images.xcassets */,
+				52B9B4EF18906542007FB22D /* Supporting Files */,
+			);
+			path = ManageMyChickens;
+			sourceTree = "<group>";
+		};
+		52B9B4EF18906542007FB22D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52B9B4F018906542007FB22D /* ManageMyChickens-Info.plist */,
+				52B9B4F118906542007FB22D /* InfoPlist.strings */,
+				52B9B4F418906542007FB22D /* main.m */,
+				52B9B4F618906542007FB22D /* ManageMyChickens-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52B9B50D18906542007FB22D /* ManageMyChickensTests */ = {
+			isa = PBXGroup;
+			children = (
+				52B9B51318906542007FB22D /* ManageMyChickensTests.m */,
+				52B9B50E18906542007FB22D /* Supporting Files */,
+			);
+			path = ManageMyChickensTests;
+			sourceTree = "<group>";
+		};
+		52B9B50E18906542007FB22D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52B9B50F18906542007FB22D /* ManageMyChickensTests-Info.plist */,
+				52B9B51018906542007FB22D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52B9B4E418906542007FB22D /* ManageMyChickens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B9B51718906542007FB22D /* Build configuration list for PBXNativeTarget "ManageMyChickens" */;
+			buildPhases = (
+				52B9B4E118906542007FB22D /* Sources */,
+				52B9B4E218906542007FB22D /* Frameworks */,
+				52B9B4E318906542007FB22D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManageMyChickens;
+			productName = ManageMyChickens;
+			productReference = 52B9B4E518906542007FB22D /* ManageMyChickens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52B9B50518906542007FB22D /* ManageMyChickensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B9B51A18906542007FB22D /* Build configuration list for PBXNativeTarget "ManageMyChickensTests" */;
+			buildPhases = (
+				52B9B50218906542007FB22D /* Sources */,
+				52B9B50318906542007FB22D /* Frameworks */,
+				52B9B50418906542007FB22D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52B9B50C18906542007FB22D /* PBXTargetDependency */,
+			);
+			name = ManageMyChickensTests;
+			productName = ManageMyChickensTests;
+			productReference = 52B9B50618906542007FB22D /* ManageMyChickensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52B9B4DD18906542007FB22D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tiny Little Gears";
+				TargetAttributes = {
+					52B9B50518906542007FB22D = {
+						TestTargetID = 52B9B4E418906542007FB22D;
+					};
+				};
+			};
+			buildConfigurationList = 52B9B4E018906542007FB22D /* Build configuration list for PBXProject "ManageMyChickens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52B9B4DC18906542007FB22D;
+			productRefGroup = 52B9B4E618906542007FB22D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52B9B4E418906542007FB22D /* ManageMyChickens */,
+				52B9B50518906542007FB22D /* ManageMyChickensTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52B9B4E318906542007FB22D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B9B50118906542007FB22D /* Images.xcassets in Resources */,
+				52B9B4F318906542007FB22D /* InfoPlist.strings in Resources */,
+				52B9B4FC18906542007FB22D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B9B50418906542007FB22D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B9B51218906542007FB22D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52B9B4E118906542007FB22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B9B4FF18906542007FB22D /* TGViewController.m in Sources */,
+				52B9B4F518906542007FB22D /* main.m in Sources */,
+				52B9B4F918906542007FB22D /* TGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B9B50218906542007FB22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B9B51418906542007FB22D /* ManageMyChickensTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52B9B50C18906542007FB22D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B9B4E418906542007FB22D /* ManageMyChickens */;
+			targetProxy = 52B9B50B18906542007FB22D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52B9B4F118906542007FB22D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B9B4F218906542007FB22D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52B9B4FA18906542007FB22D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B9B4FB18906542007FB22D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52B9B51018906542007FB22D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B9B51118906542007FB22D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52B9B51518906542007FB22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		52B9B51618906542007FB22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52B9B51818906542007FB22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManageMyChickens/ManageMyChickens-Prefix.pch";
+				INFOPLIST_FILE = "ManageMyChickens/ManageMyChickens-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52B9B51918906542007FB22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManageMyChickens/ManageMyChickens-Prefix.pch";
+				INFOPLIST_FILE = "ManageMyChickens/ManageMyChickens-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52B9B51B18906542007FB22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ManageMyChickens.app/ManageMyChickens";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManageMyChickens/ManageMyChickens-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ManageMyChickensTests/ManageMyChickensTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		52B9B51C18906542007FB22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ManageMyChickens.app/ManageMyChickens";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManageMyChickens/ManageMyChickens-Prefix.pch";
+				INFOPLIST_FILE = "ManageMyChickensTests/ManageMyChickensTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52B9B4E018906542007FB22D /* Build configuration list for PBXProject "ManageMyChickens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B9B51518906542007FB22D /* Debug */,
+				52B9B51618906542007FB22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B9B51718906542007FB22D /* Build configuration list for PBXNativeTarget "ManageMyChickens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B9B51818906542007FB22D /* Debug */,
+				52B9B51918906542007FB22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52B9B51A18906542007FB22D /* Build configuration list for PBXNativeTarget "ManageMyChickensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B9B51B18906542007FB22D /* Debug */,
+				52B9B51C18906542007FB22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52B9B4DD18906542007FB22D /* Project object */;
+}
